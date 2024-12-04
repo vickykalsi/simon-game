@@ -1,0 +1,69 @@
+.blue{
+  background-color: blue;
+}
+
+body{
+  background-color: black;
+  height: 90vh;
+}
+
+.bottomleft{
+  border-radius: 0 0 0 100%;
+}
+
+.bottomright{
+  border-radius: 0 0 100% 0;
+}
+
+.button-grid-container{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 200px 200px;
+  gap: 1rem;
+  margin-top: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-grid-container button{
+  height: 100%;
+  width: 100%;
+  border: 0;
+}
+
+.green{
+  background-color: green;
+}
+
+.headline{
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 2rem;
+  color: burlywood;
+}
+
+.opaque{
+  background-color: grey !important;
+}
+
+.red{
+  background-color: red;
+}
+
+.topleft{
+  border-radius: 100% 0 0 0;
+}
+
+.topright{
+  border-radius: 0 100% 0 0;
+}
+
+.wrong{
+  background-color: coral;
+}
+
+.yellow{
+  background-color: yellow;
+}
