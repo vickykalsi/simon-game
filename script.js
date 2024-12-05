@@ -43,7 +43,7 @@ async function nextGameColor(){
 }
 
 async function wrongAnswer(){
-  await dummy(500);
+  await dummy(1000);
   document.body.classList.add("wrong");
   var audio=new Audio("/sounds/wrong.mp3");
   audio.play();
